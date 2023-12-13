@@ -1392,4 +1392,9 @@ a. Global product
     .products.main .item {
         flex: 0 0 25%;
     }
+    .newsletter .box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
