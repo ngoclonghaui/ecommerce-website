@@ -1128,9 +1128,15 @@ a. Global product
     width: var(--percent100);
 }
 
+/* 5.Footer */
 
 
+/*Widgets */
 
+.widgets {
+    padding: 3.5em 2.5em;
+    background-color: var(--light-bg-color);
+}
 
 
 
@@ -1172,7 +1178,7 @@ a. Global product
     .products .price .current{
         font-size: 1.25em;
     }
-    .products.mini, .banner .row {
+    .products.mini, .banner .row, .widgets .row {
         flex : 0 0 50%;
     }
     .products.main .item {
@@ -1389,7 +1395,7 @@ a. Global product
     .products.big .media {
         max-height: 373px;
     }
-    .products.main .item {
+    .products.main .item, .widgets .row {
         flex: 0 0 25%;
     }
     .newsletter .box {
@@ -1397,4 +1403,5 @@ a. Global product
         justify-content: space-between;
         align-items: center;
     }
+ 
 }
